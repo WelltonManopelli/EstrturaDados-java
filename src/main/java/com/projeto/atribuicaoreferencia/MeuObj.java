@@ -11,6 +11,10 @@ public class MeuObj {
         this.num = num;
     }
 
+    public Integer getNum() {
+        return num;
+    }
+
     @Override
     public String toString() {
         return this.num.toString();

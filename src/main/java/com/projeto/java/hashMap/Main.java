@@ -1,4 +1,4 @@
-package com.projeto.hashMap;
+package com.projeto.java.hashMap;
 
 import java.util.ArrayList;
 import java.util.HashMap;

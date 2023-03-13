@@ -1,4 +1,4 @@
-package com.projeto.QueueFila;
+package com.projeto.java.QueueFila;
 
 import java.util.LinkedList;
 import java.util.Queue;

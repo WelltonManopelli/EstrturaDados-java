@@ -1,4 +1,4 @@
-package com.projeto.hashSet;
+package com.projeto.java.hashSet;
 
 import java.util.HashSet;
 import java.util.Set;

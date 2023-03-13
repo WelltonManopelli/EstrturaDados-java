@@ -1,4 +1,4 @@
-package com.projeto.hashSet;
+package com.projeto.java.hashSet;
 import java.util.Objects;
 
 public class Carro implements Comparable<Carro>{
@@ -20,8 +20,8 @@ public class Carro implements Comparable<Carro>{
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof com.projeto.ArrayList.Carro)) return false;
-        com.projeto.ArrayList.Carro carro = (com.projeto.ArrayList.Carro) o;
+        if (!(o instanceof com.projeto.java.ArrayList.Carro)) return false;
+        com.projeto.java.ArrayList.Carro carro = (com.projeto.java.ArrayList.Carro) o;
         return Objects.equals(getMarca(), carro.getMarca());
     }
 

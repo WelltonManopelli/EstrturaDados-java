@@ -1,5 +1,4 @@
-package com.projeto.StackPilha;
-
+package com.projeto.java.equalHashCode;
 import java.util.Objects;
 
 public class Carro {
@@ -29,12 +28,5 @@ public class Carro {
     @Override
     public int hashCode() {
         return Objects.hash(getMarca());
-    }
-
-    @Override
-    public String toString() {
-        return "Carro{" +
-                "marca='" + marca + '\'' +
-                '}';
     }
 }
